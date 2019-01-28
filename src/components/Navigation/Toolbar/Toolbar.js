@@ -3,11 +3,14 @@ import tools from './Toolbar.module.css';
 import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 
+
 const toolbar = (props) => (
      <header className={tools.Toolbar}>
         <div>MENU</div>
-        <Logo />
-        <nav>
+        <div className={tools.Logo}>
+             <Logo />
+        </div>
+        <nav className={tools.DesktopOnly}>
             <NavigationItems />
         </nav>
          
