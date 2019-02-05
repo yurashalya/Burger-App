@@ -15,4 +15,4 @@ class Orders extends Component {
 }
 
 
-export default Order;
+export default Orders;
